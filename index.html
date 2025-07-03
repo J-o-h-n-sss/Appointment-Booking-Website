@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hung Hair Salon</title>
+    <link rel = "stylesheet" href = "style.css"/>
+</head>
+<body>
+    <div class = "container" >
+        <h1>Online Booking</h1>
+        <form id="bookingForm">
+            <label for = "firstname">First name: </label><br>
+            <input type="text" id="firstname" required/><br>
+            <label for="lastname">Last name: </label>
+            <input type="text" id="lastname"/><br><br>
+            
+            <label for="phonenumbers">Phone number:</label>
+            <input type="text" id="phonenumbers"required/><br>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" required/>
+
+            <label for="time">Time</label>
+            <input type="time" id="time" required/>
+            
+            <button type="submit">Book Now</button>
+        </form>
+        <p id="response"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
